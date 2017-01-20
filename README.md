@@ -12,5 +12,5 @@ Once logged in, the items that you currently have checked out will be listed, as
 
 ![Welcome View](/assets/Welcome.png)
 
-From this point, you can check out or check in items. If your use account has supervisor/administrator rights, the admin button will also be available in the nav bar. 
+From this point, you can check out or check in items. If your use account has supervisor/administrator rights, the admin button will also be available in the nav bar.
 
