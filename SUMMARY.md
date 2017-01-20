@@ -16,5 +16,5 @@
 ## System Configuration
 * [Deployment](config/README.md)
 * [Kit List](config/kit.md)
-* [DB ERD\/DDL](assets/ERD.pdf)
+* [DB ERD/DDL](assets/ERD.pdf)
 
