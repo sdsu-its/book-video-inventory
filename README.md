@@ -1,3 +1,4 @@
-# My Awesome Book
+# Video Inventory Management System
+The Video Inventory Management is a system that allows the history and condition of a variety of inventory items to be tracked as they are used by various individuals.
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+The system is designed to be implementation agnostic, allowing you to customize what types of items are checked out, and how they are dealt with internally.

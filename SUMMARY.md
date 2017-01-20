@@ -14,5 +14,7 @@
 * Users
 
 ## System Configuration
+* Deployment
+* Kit List
 * [DB ERD/DDL](assets/ERD.pdf)
 
