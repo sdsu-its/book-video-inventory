@@ -2,19 +2,19 @@
 
 ## Introduction
 * [Overview](README.md)
-* Check Out Items
-* Check In Items
+* [Check Out Items](checkout.md)
+* [Check In Items](checkin.md)
 
 ## Administrator Tools
 * [Overview](admin/README.md)
-* Items
-* Macros
-* Categories
-* Transactions
-* Users
+* [Items](admin/items.md)
+* [Macros](admin/macros.md)
+* [Categories](admin/categories.md)
+* [Transactions](admin/transactions.md)
+* [Users](admin/users.md)
 
 ## System Configuration
-* Deployment
-* Kit List
-* [DB ERD/DDL](assets/ERD.pdf)
+* [Deployment](config/deployment.md)
+* [Kit List](config/kit.md)
+* [DB ERD\/DDL](assets/ERD.pdf)
 
