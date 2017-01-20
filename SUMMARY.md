@@ -1,13 +1,11 @@
 # Summary
 
-Introduction
-
+## Introduction
 * [Overview](README.md)
 * Check Out Items
 * Check In Items
 
-Administrator Tools
-
+## Administrator Tools
 * [Overview](admin/README.md)
 * Items
 * Macros
@@ -15,7 +13,6 @@ Administrator Tools
 * Transactions
 * Users
 
-System Configuration
-* [DB DDL](/assets/ITS DB ERD - VideoINV.pdf)
-
+## System Configuration
+* [DB DDL](assets/ITS DB ERD - VideoINV.pdf)
 
