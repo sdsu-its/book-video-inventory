@@ -14,7 +14,7 @@
 * [Users](admin/users.md)
 
 ## System Configuration
-* [Deployment](config/deployment.md)
+* [Deployment](config/README.md)
 * [Kit List](config/kit.md)
 * [DB ERD\/DDL](assets/ERD.pdf)
 
