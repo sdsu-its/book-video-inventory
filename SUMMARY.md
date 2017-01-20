@@ -14,5 +14,5 @@
 * Users
 
 ## System Configuration
-* [DB DDL](assets/ITS DB ERD - VideoINV.pdf)
+* [DB ERD/DDL](assets/ERD.pdf)
 
