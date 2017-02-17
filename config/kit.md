@@ -2,6 +2,8 @@
 
 The kit list is the checklist that is displayed on the left-side of the check out view, that reminds users who are checking out equipment to include all of the key components. This list is controlled by the `kit.json` file. This is a simple JSON file that is loaded on page load by the front end.
 
+As items are added to the transaction, they will be checked off on the list, based on the category that the items that have been added to the transaction.
+
 ![](/assets/Kit-UIView.png)
 
 ## Format
