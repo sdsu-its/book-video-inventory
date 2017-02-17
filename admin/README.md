@@ -1,6 +1,8 @@
 #Administartor Tools Overview
 Video Inventory provides a vast array of tools for administrator/supervisor users to make managing their inventory system quick and easy. Each of the tools is broken down into their own pages to provide you quick and easy access to the information that you need.
 
+![](/assets/Admin-MenuBar.png)
+
 # Definitions
 **Item – ** An item is something that can be checked out/in by a user. Items are the backbone of your inventory, and represent the smallest unit.
 
