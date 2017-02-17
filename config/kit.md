@@ -19,5 +19,7 @@ As items are added to the transaction, they will be checked off on the list, bas
 }
 ```
 
+The kit file can be found in `src/main/webapp/kit.json`, and an example of our production kit file can be found on [GitHub](https://github.com/sdsu-its/video-inv/blob/master/src/main/webapp/kit.json).
+
 By modifying the `kit.json` file, you can change the section title, List Item names, and their corresponding categories. In regard to the Category, the name entered in the kit file, must match the category ID for the [category](/admin/categories.md). Other than that, the file follows standard JSON formatting.
 
