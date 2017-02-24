@@ -3,6 +3,18 @@
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/sdsu-its/video-inv"
+        },
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": false,
+            "instapaper": true,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
         }
     }
 }
