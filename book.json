@@ -9,11 +9,9 @@
             "twitter": false,
             "google": false,
             "weibo": false,
-            "instapaper": true,
-            "vk": false,
+            "instapaper": false,
             "all": [
-                "facebook", "google", "twitter",
-                "weibo", "instapaper"
+                "facebook", "google", "twitter", "instapaper"
             ]
         }
     }
