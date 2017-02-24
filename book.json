@@ -11,7 +11,8 @@
             "weibo": false,
             "instapaper": false,
             "all": [
-                "facebook", "google", "twitter", "instapaper"
+                "facebook", "google", "twitter",
+                "instapaper"
             ]
         }
     }
