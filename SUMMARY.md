@@ -1,7 +1,6 @@
 # Summary
 
 ## Introduction
-* [Overview](intro.md)
 * [Check Out Items](checkout.md)
 * [Check In Items](checkin.md)
 
