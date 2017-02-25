@@ -6,6 +6,10 @@ The Video Inventory Management system is packaged as a ready to deploy WAR file,
 
 You will need to create two secrets in the vault, one that will have the information for your production system, the other with your testing configuration. Information on how to setup Vault and AppRoles can be found at: [https://sdsu-its.gitbooks.io/vault/content/](https://sdsu-its.gitbooks.io/vault/content/)
 
+### DB Configuration
+
+You will need to configure a MySQL Database with the [DDL provided](/config/erd.md). It is recommended that you create a user that has all permissions, however is restricted to only the table you just created. You can also implement IP restrictions if you desire.
+
 ### Environment Variables
 
 | Name | Value |
@@ -25,5 +29,15 @@ You will need to create two secrets in the vault, one that will have the informa
 | token\_cypher | Token Encryption Cypher. If changed, all tokens will become invalid. |
 | token\_ttl | Token Longevity \(How long will a user stay logged in\) in Milliseconds Recommended Value: 86400000 -&gt; 24 Hours. |
 
- Be sure to replace db\_host, db\_name and possibly the port with your MySQL server info
+Be sure to replace db\_host, db\_name and possibly the port with your MySQL server info
+
+## Default Credentials
+
+One the first run, provided there are no users in your User's table, a default Admin user will be created.
+
+Username: `admin`
+
+Password: `admin`
+
+It is highly recommended that you either delete the admin user, or at a minimum change the admin password.
 
