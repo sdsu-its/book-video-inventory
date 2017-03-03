@@ -2,13 +2,21 @@
 
 The Video Inventory Management system is packaged as a ready to deploy WAR file, which can be deployed to any modern Tomcat container. VIMS uses environment variables to load in the Vault server URL, App Role, and App Secret.
 
+## Tomcat Configuration
+
+To set environment variables in Tomcat, you will need to define them in either the `setenv.sh` or `setenv.bat` file. The script is placed either into CATALINA\_BASE/bin or into CATALINA\_HOME/bin directory and is named setenv.bat \(on Windows\) or setenv.sh \(on \*nix\). The file has to be readable.
+
+By default the setenv script file is absent. If the script file is present both in CATALINA\_BASE and in CATALINA\_HOME, the one in CATALINA\_BASE is preferred.
+
+In that file, you can define environment variables as you would on the base system \(linux, windows, etc.\). For example on Debian Linux, we would have `export VAULT_ADDR="https://url:port"`.
+
 ## Vault Configuration
 
 You will need to create two secrets in the vault, one that will have the information for your production system, the other with your testing configuration. Information on how to setup Vault and AppRoles can be found at: [https://sdsu-its.gitbooks.io/vault/content/](https://sdsu-its.gitbooks.io/vault/content/)
 
 ### DB Configuration
 
-You will need to configure a MySQL Database with the [DDL provided](/config/erd.md). It is recommended that you create a user that has all permissions, however is restricted to only the table you just created. You can also implement IP restrictions if you desire.
+You will need to configure a MySQL Database with the [DDL provided](/config/erd.md). It is recommended that you create a user that has all permissions, however is restricted to only the database you just created. You can also implement IP restrictions if you desire.
 
 ### Environment Variables
 
@@ -33,7 +41,7 @@ Be sure to replace db\_host, db\_name and possibly the port with your MySQL serv
 
 ## Default Credentials
 
-One the first run, provided there are no users in your User's table, a default Admin user will be created.
+On the first run, provided there are no users in your User's table, a default Admin user will be created.
 
 Username: `admin`
 

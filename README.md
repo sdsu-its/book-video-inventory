@@ -8,7 +8,7 @@ To access the system, you will need a valid set of credentials, these can either
 
 ![](/assets/Navbar-Home.png)
 
-Once logged in, the items that you currently have checked out will be listed, as well as some help text to help you get started. This text can be customized by editing the `welcome.view` view.
+Once logged in, the items that you currently have checked out will be listed, as well as some help text to help you get started. This text can be customized by editing the `welcome.view` view. Similarly, the public index page, which is shown to users who are not logged in, can be edited in the `index.view`.
 
 ![Welcome View](/assets/Welcome.png)
 

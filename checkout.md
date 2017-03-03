@@ -6,7 +6,7 @@ When you go out for a shoot, you will want to check out the items that you are t
 
 ## Checking Out Items
 
-Now, either scan the inventory tags on all of the items you would like to take with you, or type their IDs into the ID field at the bottom of the page. As you add items, the shoot list on the left side will begin to be completed. If you need to remove an item from the checkout you can click the trash can icon to the right of the item you would like to remove, and both the item list, as well as the checklist will be updated to reflect the changes. You can enter comments for each item, which will be saved with the transaction, to make note of an item's condition.
+Now, either scan the inventory tags on all of the items you would like to take with you, or type in their IDs into the ID field at the bottom of the page. As you add items, the shoot checklist on the left side will begin to be completed. If you need to remove an item from the checkout you can click the trash can icon to the right of the item you would like to remove, and both the item list, as well as the checklist will be updated to reflect the changes. You can enter comments for each item, which will be saved with the transaction. Comments are useful to note the condition of an item.
 
 ![](/assets/Checkout-Items.png)
 
@@ -18,5 +18,5 @@ Unless the current user is an supervisor, a supervisor will need to authorize th
 
 ![](/assets/Checkout-SupCheck.png)
 
-Once a transaction is approved and submitted, it cannot be changed or updated to ensure that the information contained within is not mutated and therefore invalidated. If you are done using the Inventory Manager for the time being, be sure to **log out**!
+Once a transaction is approved and submitted, it cannot be changed or updated to ensure that the information contained within is not mutated and therefore invalidated. If you are done using the Inventory Manager for the time being, be sure to **logout**!
 
