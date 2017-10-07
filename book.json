@@ -1,18 +1,27 @@
 {
-    "plugins": [ "github" ],
-    "pluginsConfig": {
-        "github": {
-            "url": "https://github.com/sdsu-its/video-inv"
-        },
-        "sharing": {
-            "facebook": false,
-            "twitter": false,
-            "google": false,
-            "instapaper": false,
-            "all": [
-                "facebook", "google", "twitter",
-                "instapaper"
-            ]
-        }
+  "plugins": [
+    "download-pdf-link",
+    "alerts",
+    "github"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "google": false,
+      "instapaper": false,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "instapaper"
+      ]
+    },
+    "download-pdf-link": {
+      "base": "https://www.gitbook.com/book/sdsu-its/vault/"
+    },
+    "github": {
+        "url": "https://github.com/sdsu-its/video-inv/"
     }
+  }
 }
