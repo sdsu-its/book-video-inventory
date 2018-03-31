@@ -1,22 +1,25 @@
-# Summary
+# Table of contents
+
+* [Introduction](README.md)
 
 ## Introduction
-* [Overview](README.md)
-* [Check Out Items](checkout.md)
-* [Check In Items](checkin.md)
+
+* [Overview](introduction/overview.md)
+* [Check Out Items](introduction/check-out-items.md)
+* [Check In Items](introduction/check-in-items.md)
 
 ## Administrator Tools
 
-* [Overview](admin/README.md)
-* [Items](admin/items.md)
-* [Macros](admin/macros.md)
-* [Categories](admin/categories.md)
-* [Transactions](admin/transactions.md)
-* [Users](admin/users.md)
+* [Overview](administrator-tools/overview.md)
+* [Items](administrator-tools/items.md)
+* [Macros](administrator-tools/macros.md)
+* [Categories](administrator-tools/categories.md)
+* [Transactions](administrator-tools/transactions.md)
+* [Users](administrator-tools/users.md)
 
 ## System Configuration
 
-* [Deployment](config/README.md)
-* [Kit List](config/kit.md)
-* [DB ERD/DDL](config/erd.md)
+* [Deployment](system-configuration/deployment.md)
+* [Kit List](system-configuration/kit-list.md)
+* [DB ERD/DDL](system-configuration/db-erdddl.md)
 
